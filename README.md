@@ -19,10 +19,8 @@ ______
 
 ![](./src/assets/Portfolio.png)
 
-Habría que:  cambiar la bd en .env para que se conecte a vuestra base de datos local
-
-Ejecutar un php bin/console doctrine:schema:update --force --env dev para que actualice la bd
-
+### `Habría que cambiar la bd en .env para que se conecte a vuestra base de datos local.`
+### `Ejecutar un php bin/console doctrine:schema:update --force --env dev para que actualice la base de datos.`
 ### `Guardalo dentro de la carpeta htdocs en XAMPP.`
 ### `Inicia el Servidor y MariaDB.`
 
