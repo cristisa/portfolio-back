@@ -2,11 +2,11 @@
 
 ## CRUD:
 
-![](./portafolio-back/public/CRUD.png)
+![](./public/CRUD.png)
 
 ## API:
 
-![](./portafolio-back/public/API_Platform.png)
+![](./public/API_Platform.png)
 
 ## !🔌 Instala dependencias:
 ______ 
@@ -17,7 +17,7 @@ ______
 
 ## Modelo Relacional:
 
-![](./portafolio-back/public/ModeloER.png)
+![](./public/ModeloER.png)
 
 ### `Habría que cambiar la bd en .env para que se conecte a vuestra base de datos local.`
 ### `Ejecutar un php bin/console doctrine:schema:update --force --env dev para que actualice la base de datos.`
