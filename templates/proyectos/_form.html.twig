@@ -1,0 +1,21 @@
+{{ form_start(form) }}
+    <div class="form-group">
+        {{ form_row(form.nombre, {'attr': {'class': 'form-control'}}) }}
+    </div>
+    <div class="form-group">
+        {{ form_row(form.descripcion, {'attr': {'class': 'form-control'}}) }}
+    </div>
+    <div class="form-group">
+        {{ form_row(form.repositorio, {'attr': {'class': 'form-control'}}) }}
+    </div>
+    <div class="form-group">
+        {{ form_row(form.imagen, {'attr': {'class': 'form-control'}}) }}
+        {# {{ form_row(form.imagen, {
+            'attr': {
+                'class': 'form-control',
+                'placeholder': 'Selecciona una imagen' 
+            }
+        }) }} #}
+    </div>
+    <button class="btn {{ button_color|default('btn-outline-primary') }}  mt-3">{{ button_label|default('Save Project') }}</button>
+{{ form_end(form) }}
