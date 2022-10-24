@@ -1,4 +1,4 @@
-# Mi portafolio parte de Backend:
+# Mi portafolio parte de Backend, se implementó un API con los proyectos disponibles en mi repositorio:
 
 ## CRUD:
 
@@ -27,13 +27,12 @@ ______
 Y disfruta 	
 :tada:
 
-## Tecnologías utilizadas
+## Stack:
 
 - Bootstrap    
 - JSON
 - Api Plataform
 - Graphql
 - PHP
-- Symfony 5.4
-- MariaDB
-- Apache
+- Symfony Cli 5.4
+- XAMPP (MariaDB, Apache)
